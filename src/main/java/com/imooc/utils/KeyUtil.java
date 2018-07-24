@@ -8,11 +8,14 @@ import java.util.Random;
  */
 public class KeyUtil {
 
-    /**
-     * 生成唯一的主键
-     * 格式: 时间+随机数
-     * @return
-     */
+	/**
+	 * 
+	 * @方法名称 genUniqueKey
+	 * @功能描述 <pre>生成唯一的主键 格式: 时间+随机数</pre>
+	 * @作者    xingsfdz
+	 * @创建时间 2018年7月25日 上午1:14:57
+	 * @return
+	 */
     public static synchronized String genUniqueKey() {
         Random random = new Random();
         Integer number = random.nextInt(900000) + 100000;

@@ -13,10 +13,22 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Map;
 
+
 /**
- * 支付
- * Created by 廖师兄
- * 2017-07-04 00:49
+ * 
+ * @类名称 PayController.java
+ * @类描述 <pre>支付</pre>
+ * @作者  xingsfdz xingsfdz@163.com
+ * @创建时间 2018年7月25日 上午12:55:43
+ * @版本 1.00
+ *
+ * @修改记录
+ * <pre>
+ *     版本                       修改人 		修改日期 		 修改内容描述
+ *     ----------------------------------------------
+ *     1.00 	xingsfdz 	2018年7月25日             
+ *     ----------------------------------------------
+ * </pre>
  */
 @Controller
 @RequestMapping("/pay")
