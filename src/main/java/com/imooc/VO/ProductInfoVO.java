@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * 2017-05-12 14:25
  */
 @Data
-public class ProductInfoVO {
+public class ProductInfoVO { 
 
     @JsonProperty("id")
     private String productId;
